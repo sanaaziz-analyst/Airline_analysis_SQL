@@ -1,0 +1,3 @@
+Grants for aircargo_analyst@localhost
+GRANT USAGE ON *.* TO `aircargo_analyst`@`localhost` IDENTIFIED BY PASSWORD '*0FC95BA076DE8BCF87BEA062677BDDB83C396066'
+"GRANT SELECT, INSERT, UPDATE ON `airlines`.* TO `aircargo_analyst`@`localhost`"
