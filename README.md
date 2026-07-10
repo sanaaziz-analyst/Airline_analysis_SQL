@@ -121,7 +121,6 @@ I love working with data, it is genuinely what I enjoy doing, and I picked up th
 ## What Could Be Added With More Time
 
 * A short written summary pulling together the revenue, route and customer findings across all nineteen tasks into two or three overall business conclusions
-* Screenshots of each query running inside MySQL Workbench, alongside the plain CSV results, for anyone who wants to see the tool itself in use
 * A data cleaning pass correcting the Bussiness and Bristish Airways typos in a separate cleaned copy of the dataset, while keeping the original raw files untouched for transparency
 
 ## Acknowledgements
