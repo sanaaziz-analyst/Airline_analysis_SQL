@@ -98,13 +98,7 @@ A short, plain English explanation of each task, beyond just the query itself.
 
 **Task 19, Cursor, first customer whose last name ends with Scott.** A cursor steps through every customer whose last name ends with Scott and returns only the first one it reaches. There are genuinely two Scotts in the data, Samuel Scott and Alexis Scott, and the cursor correctly returns Samuel Scott, the one appearing first in customer ID order.
 
----
 
-## Entity Relationship Diagram
-
-![Entity relationship diagram](images/er_diagram.png)
-
-The customer table sits at the centre of the model, linking out to ticket_details and passengers_on_flights through customer_id. The routes table links separately into passengers_on_flights through route_id, connecting each passenger journey back to its origin, destination and distance. This diagram sits here as supporting context for the project rather than as one of the numbered tasks above.
 
 ---
 
