@@ -1,5 +1,0 @@
-CHECK,DESCRIPTION,RESULT
-1,route_details table created with UNIQUE on route_id and CHECK constraints on flight_num and distance_miles,SUCCESS
-2,All 49 real rows from routes loaded into route_details successfully,49 rows inserted
-3,Attempted insert with distance_miles = -100,FAILED as expected - CONSTRAINT chk_distance_miles failed for airlines.route_details
-4,Attempted insert with a duplicate route_id = 1,FAILED as expected - Duplicate entry 1 for key route_id
