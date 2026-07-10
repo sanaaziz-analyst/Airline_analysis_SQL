@@ -30,29 +30,29 @@ As the database administrator on this project, the brief is to identify regular 
 
 ## Tasks to be Performed
 
-Every query below is written in the same single file, [airline_project.sql](arline_project.sql), clearly labelled by task number. The SQL Query column in the table links to that one file for every task, rather than a separate file per task.
+Every query below is written in the same single file, [arline_project.md](arline_project.md), clearly labelled by task number, with each task as its own section. The SQL Query column in the table links straight to that task's own section in the file, rather than a separate file per task.
 
 | Task # | Task | SQL Query | Result CSV |
 |--------|------|-----------|------------|
-| 1 | Create the route_details table with constraints | [Query](airline_project.sql) | [View Result](Results/task_1_create_route_details_table.csv) |
-| 2 | Passengers who travelled on routes 1 to 25 | [Query](airline_project.sql) | [View Result](Results/task_2_passengers_routes_1_to_25.csv) |
-| 3 | Business class passenger count and revenue | [Query](airline_project.sql) | [View Result](Results/task_3_business_class_passengers_revenue.csv) |
-| 4 | Customer full name | [Query](airline_project.sql) | [View Result](Results/task_4_customer_full_name.csv) |
-| 5 | Customers who have registered and booked a ticket | [Query](airline_project.sql) | [View Result](Results/task_5_registered_and_booked_customers.csv) |
-| 6 | Customer name by brand, Emirates | [Query](airline_project.sql) | [View Result](Results/task_6_customer_name_by_brand.csv) |
-| 7 | Economy Plus passengers using GROUP BY and HAVING | [Query](airline_project.sql) | [View Result](Results/task_7_economy_plus_group_having.csv) |
-| 8 | Whether revenue has crossed 10000 | [Query](airline_project.sql) | [View Result](Results/task_8_revenue_crossed_10000.csv) |
-| 9 | Create and grant access to a new user | [Query](airline_project.sql) | [View Result](Results/task_9_create_and_grant_user.csv) |
-| 10 | Max ticket price per class using a window function | [Query](airline_project.sql) | [View Result](Results/task_10_max_price_per_class.csv) |
-| 11 | Passengers on route 4, with an index added for speed | [Query](airline_project.sql) | [View Result](Results/task_11_route_4_index.csv) |
-| 12 | Execution plan for route 4, before and after the index | [Query](airline_project.sql) | [View Result](Results/task_12_route_4_execution_plan.csv) |
-| 13 | Total price per customer and aircraft using ROLLUP | [Query](airline_project.sql) | [View Result](Results/task_13_total_price_rollup.csv) |
-| 14 | A view of business class customers and their brand | [Query](airline_project.sql) | [View Result](Results/task_14_business_class_view.csv) |
-| 15 | Stored procedure, passengers within a route range | [Query](airline_project.sql) | [View Result](Results/task_15_stored_procedure_route_range.csv) |
-| 16 | Stored procedure, routes over 2000 miles | [Query](airline_project.sql) | [View Result](Results/task_16_stored_procedure_long_routes.csv) |
-| 17 | Stored procedure, distance category, SDT, IDT, LDT | [Query](airline_project.sql) | [View Result](Results/task_17_stored_procedure_distance_category.csv) |
-| 18 | Stored function inside a stored procedure, complimentary services | [Query](airline_project.sql) | [View Result](Results/task_18_stored_function_complimentary_services.csv) |
-| 19 | Cursor, first customer whose last name ends with Scott | [Query](airline_project.sql) | [View Result](Results/task_19_cursor_first_scott_customer.csv) |
+| 1 | Create the route_details table with constraints | [Query](arline_project.md#task-1-create-the-route_details-table-with-constraints) | [View Result](Results/task_1_create_route_details_table.csv) |
+| 2 | Passengers who travelled on routes 1 to 25 | [Query](arline_project.md#task-2-passengers-who-travelled-on-routes-1-to-25) | [View Result](Results/task_2_passengers_routes_1_to_25.csv) |
+| 3 | Business class passenger count and revenue | [Query](arline_project.md#task-3-business-class-passenger-count-and-revenue) | [View Result](Results/task_3_business_class_passengers_revenue.csv) |
+| 4 | Customer full name | [Query](arline_project.md#task-4-customer-full-name) | [View Result](Results/task_4_customer_full_name.csv) |
+| 5 | Customers who have registered and booked a ticket | [Query](arline_project.md#task-5-customers-who-have-registered-and-booked-a-ticket) | [View Result](Results/task_5_registered_and_booked_customers.csv) |
+| 6 | Customer name by brand, Emirates | [Query](arline_project.md#task-6-customer-name-by-brand-emirates) | [View Result](Results/task_6_customer_name_by_brand.csv) |
+| 7 | Economy Plus passengers using GROUP BY and HAVING | [Query](arline_project.md#task-7-economy-plus-passengers-using-group-by-and-having) | [View Result](Results/task_7_economy_plus_group_having.csv) |
+| 8 | Whether revenue has crossed 10000 | [Query](arline_project.md#task-8-whether-revenue-has-crossed-10000) | [View Result](Results/task_8_revenue_crossed_10000.csv) |
+| 9 | Create and grant access to a new user | [Query](arline_project.md#task-9-create-and-grant-access-to-a-new-user) | [View Result](Results/task_9_create_and_grant_user.csv) |
+| 10 | Max ticket price per class using a window function | [Query](arline_project.md#task-10-max-ticket-price-per-class-using-a-window-function) | [View Result](Results/task_10_max_price_per_class.csv) |
+| 11 | Passengers on route 4, with an index added for speed | [Query](arline_project.md#task-11-passengers-on-route-4-with-an-index-added-for-speed) | [View Result](Results/task_11_route_4_index.csv) |
+| 12 | Execution plan for route 4, before and after the index | [Query](arline_project.md#task-12-execution-plan-for-route-4-before-and-after-the-index) | [View Result](Results/task_12_route_4_execution_plan.csv) |
+| 13 | Total price per customer and aircraft using ROLLUP | [Query](arline_project.md#task-13-total-price-per-customer-and-aircraft-using-rollup) | [View Result](Results/task_13_total_price_rollup.csv) |
+| 14 | A view of business class customers and their brand | [Query](arline_project.md#task-14-a-view-of-business-class-customers-and-their-brand) | [View Result](Results/task_14_business_class_view.csv) |
+| 15 | Stored procedure, passengers within a route range | [Query](arline_project.md#task-15-stored-procedure-passengers-within-a-route-range) | [View Result](Results/task_15_stored_procedure_route_range.csv) |
+| 16 | Stored procedure, routes over 2000 miles | [Query](arline_project.md#task-16-stored-procedure-routes-over-2000-miles) | [View Result](Results/task_16_stored_procedure_long_routes.csv) |
+| 17 | Stored procedure, distance category, SDT, IDT, LDT | [Query](arline_project.md#task-17-stored-procedure-distance-category-sdt-idt-ldt) | [View Result](Results/task_17_stored_procedure_distance_category.csv) |
+| 18 | Stored function inside a stored procedure, complimentary services | [Query](arline_project.md#task-18-stored-function-inside-a-stored-procedure-complimentary-services) | [View Result](Results/task_18_stored_function_complimentary_services.csv) |
+| 19 | Cursor, first customer whose last name ends with Scott | [Query](arline_project.md#task-19-cursor-first-customer-whose-last-name-ends-with-scott) | [View Result](Results/task_19_cursor_first_scott_customer.csv) |
 
 ---
 
@@ -126,8 +126,8 @@ I love working with data, it is genuinely what I enjoy doing, and I picked up th
 
 1. Open MySQL Workbench and create a new database called airlines
 2. Import customer.csv, routes.csv, ticket_details.csv and passengers_on_flights.csv from the Datasets folder into their own tables using the Table Data Import Wizard, converting the date columns to DATE type on import, since they are stored as DD-MM-YYYY text in the CSV files
-3. Open arline_project.sql and run it against the database
-4. Task 1 deliberately includes two invalid INSERT statements to prove the table's constraints work, so run the script with error handling turned off, for example `mysql -u root airlines --force < arline_project.sql` from the command line, so it continues past those two expected failures and completes all nineteen tasks
+3. Open arline_project.md, copy the SQL from the section for each task in turn, or copy all of it in order, and run it against the database
+4. Task 1 deliberately includes two invalid INSERT statements to prove the table's constraints work, so if you save the whole file out as a plain .sql script to run from the command line, use `mysql -u root airlines --force < your_saved_file.sql`, so it continues past those two expected failures and completes all nineteen tasks
 5. Compare your own output against the matching file in the Results folder
 
 ## What Could Be Added With More Time
@@ -139,6 +139,7 @@ I love working with data, it is genuinely what I enjoy doing, and I picked up th
 ## Acknowledgements
 
 The dataset and business scenario for this project were sourced from an openly available SQL practice resource. All SQL queries, the entity relationship diagram and this write up are my own work.
+
 
 ---
 
