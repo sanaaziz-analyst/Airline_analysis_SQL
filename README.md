@@ -106,6 +106,21 @@ A short, plain English explanation of each task, beyond just the query itself.
 
 I love working with data, it is genuinely what I enjoy doing, and I picked up this dataset from an open source specifically to push my SQL skills further and give myself a proper reason to practise the parts of SQL that a simple SELECT statement never touches, constraints, window functions, stored procedures, a stored function called from within a procedure, and a cursor. Every task here maps to a real business question a database administrator would actually be asked to solve, identifying regular customers, analysing busiest routes, calculating revenue, and proving that constraints, indexes, procedures and cursors all genuinely work rather than just reading correctly on the page. Building it out properly, end to end, against a real database, is simply the kind of project I enjoy creating.
 
+## Key findings
+
+* Business class is 13 passengers but 39.3 per cent of total revenue, a small group carrying a big share
+* Total revenue across all tickets is 15,369
+* 33 of 50 registered customers have actually booked, leaving 17 who never converted
+* Emirates is the most common airline among business class customers, ahead of Qatar Airways, Bristish Airways and Jet Airways
+* Routes split 25 short, 21 intermediate, 3 long distance, so the network is mostly short and mid range flying
+* Business class has a higher max ticket price than First Class, a gap worth a second look
+
+## Recommendations
+
+1. Target the 17 never booked customers with a first booking incentive
+2. Look into why Business outprices First Class
+3. Prioritise reliability on short and intermediate routes, since that's where nearly all the flying happens
+
 ## Skills This Project Demonstrates
 
 * Relational database design, including constraints such as UNIQUE and CHECK, proven against real invalid data rather than just written and assumed correct
