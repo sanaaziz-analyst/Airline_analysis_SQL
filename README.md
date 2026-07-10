@@ -116,13 +116,7 @@ I love working with data, it is genuinely what I enjoy doing, and I picked up th
 * Query performance analysis using EXPLAIN, and using an index to demonstrably improve it
 * Translating a plain English business question into correct, working SQL, and validating the result against the real data rather than assuming it is correct
 
-## How to Run This Yourself
 
-1. Open MySQL Workbench and create a new database called airlines
-2. Import customer.csv, routes.csv, ticket_details.csv and passengers_on_flights.csv from the Datasets folder into their own tables using the Table Data Import Wizard, converting the date columns to DATE type on import, since they are stored as DD-MM-YYYY text in the CSV files
-3. Open arline_project.md, copy the SQL from the section for each task in turn, or copy all of it in order, and run it against the database
-4. Task 1 deliberately includes two invalid INSERT statements to prove the table's constraints work, so if you save the whole file out as a plain .sql script to run from the command line, use `mysql -u root airlines --force < your_saved_file.sql`, so it continues past those two expected failures and completes all nineteen tasks
-5. Compare your own output against the matching file in the Results folder
 
 ## What Could Be Added With More Time
 
